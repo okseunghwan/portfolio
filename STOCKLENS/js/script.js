@@ -20,7 +20,10 @@ $(function () {
 
     // hamberger end
 
-
+    // # 링크 새로고침 방지
+    $('a[href="#"]').click(function (e) {
+        e.preventDefault();
+    });
 
 
 
@@ -29,10 +32,10 @@ $(function () {
 
     // tab
 
-    $(".board>li>a").click(function(){
+    $(".board>li>a").click(function () {
         $(this).parent().addClass("on").siblings().removeClass("on")
     })
-    $(".market_board>li>a").click(function(){
+    $(".market_board>li>a").click(function () {
         $(this).parent().addClass("on").siblings().removeClass("on")
     })
 
