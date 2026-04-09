@@ -1669,14 +1669,23 @@ template {
 
   .hero {
     min-height: auto;
-    padding-top: 104px;
+    padding-top: 71px;
   }
 
   .hero-inner {
     gap: 28px;
     width: min(100% - 28px, 100%);
     /* grid-template-columns: 1fr; */
+    bottom: -50px;
+    justify-content: center;
   }
+  
+.hero-video{
+  position: inherit;
+    height: 600px;
+    object-fit: none;
+
+}
 
   .hero-copy {
     max-width: 100%;
