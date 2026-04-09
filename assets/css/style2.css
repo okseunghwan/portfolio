@@ -167,7 +167,7 @@ header{
   position: relative;
   padding: 6px 0;
   transition: color var(--transition), transform var(--transition);
-  color: #0052ff;
+  /* color: #0052ff; */
   font-weight: 600;
 
 }
@@ -224,6 +224,10 @@ header{
   width: 100%;
   height: 100%;
   object-fit: cover;
+
+  /* 추가 */
+  /* top: 100px;  */
+  /* 추가 end */
   /* opacity: 0.08; */
   /* filter: saturate(1.02) contrast(1.02);
       transform: scale(1.05);
