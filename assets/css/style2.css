@@ -686,6 +686,61 @@ header{
   gap: 22px;
 }
 
+
+/* 브랜드별 색상 start */
+/* 이 부분을 지우면 포트폴리오 메인 컬러를 사용하실 수 있습니다. */
+.font_gr{
+  color: #333;
+}
+.brand1_color h3 {
+  color: #e89247;
+}
+
+.brand1_color .tag a {
+  background-color: #08404d;
+  color: #fff;
+}
+
+.brand1_color .tag a:hover {
+  background-color: #1c6170;
+  color: #fff;
+}
+
+.brand1_color .point-color a {
+  background-color: #e89247;
+  color: #fff;
+}
+
+.brand1_color .point-color a:hover {
+  background-color: #fd7804;
+  color: #fff;
+}
+
+.brand2_color h3 {
+  color: #0052ff;
+}
+
+.brand2_color .tag a {
+  background-color: #528fd1;
+  color: #fff;
+}
+
+.brand2_color .tag a:hover {
+  background-color: #0052ff;
+  color: #fff;
+}
+
+.brand2_color .point-color a {
+  background-color: #0052ff;
+  color: #fff;
+}
+
+.brand2_color .point-color a:hover {
+  background-color: #0685fc;
+  color: #fff;
+}
+
+/* 브랜드별 색상 end */
 .brand-row {
   padding: 26px;
   display: grid;
